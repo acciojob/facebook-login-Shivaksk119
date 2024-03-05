@@ -7,6 +7,10 @@ body{
 	height:100vh;
 }
 
+a{
+	text-decoration: underline;
+}
+
 .left{
 	width: 450px;
 	margin-top:70px;
@@ -22,5 +26,13 @@ body{
 form{
 	display:flex;
 	width:300px;
-	b
+	flex-direction: column;
+	gap: 10px;
+}
+
+#sigup{
+	color: #1877f2;
+	back-ground: #42b72a;
+	border-radius: 5px;
+	padding:10px 20px;
 }
