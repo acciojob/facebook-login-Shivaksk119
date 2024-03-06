@@ -7,10 +7,15 @@ body{
 	height:100vh;
 }
 
-.container-left{
+.left{
 	width: 450px;
 	margin-top:70px;
 	display: inline-block;
+}
+
+.left>img{
+	width: 380px;
+	height: 200px;
 }
 
 form{
@@ -22,7 +27,7 @@ form{
 	gap: 10px;
 }
 
-.container-right{
+.right{
 	display: flex;
 	flex-direction: column;
 	background-color:white;
