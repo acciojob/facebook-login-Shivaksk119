@@ -7,32 +7,55 @@ body{
 	height:100vh;
 }
 
-a{
-	text-decoration: underline;
-}
-
-.left{
+.container-left{
 	width: 450px;
 	margin-top:70px;
 	display: inline-block;
-}
-.right{
-	background-color:white;
-	height:150px;
-	box-shadow: 0 0 10px #ccc;
-	
 }
 
 form{
 	display:flex;
 	width:300px;
+	border-radius: 5px;
+	background-color:white;
 	flex-direction: column;
 	gap: 10px;
 }
 
-#sigup{
-	color: #1877f2;
-	back-ground: #42b72a;
+.container-right{
+	display: flex;
+	flex-direction: column;
+	background-color:white;
+	padding:20px;
 	border-radius: 5px;
-	padding:10px 20px;
+	box-shadow: 0 0 10px #ccc;
+	gap: 10px;
+	
+}
+input{
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding:10px;
+}
+
+form>button{
+	background-color:#1877f2;
+	border-radius: 5px;
+	padding: 10px 20px;
+	border: 0px;
+	color: white;
+}
+
+.signup{
+	color: white;
+	background-color: #42b72a;
+	border-radius: 5px;
+	padding: 10px 20px;
+	border: 0px;
+}
+
+a{
+	text-decoration: none;
+	margin: 10px;
+	color: #1877f2
 }
